@@ -10,6 +10,9 @@ namespace BasicConsoleApp
     {
         static void Main(string[] args)
         {
+            string xd = "new";
+            Console.WriteLine($"testing {xd}");
+            Console.ReadLine();
         }
     }
 }

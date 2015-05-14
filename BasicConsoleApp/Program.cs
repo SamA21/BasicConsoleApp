@@ -18,7 +18,7 @@ namespace BasicConsoleApp
                 string number = Console.ReadLine();                
                 vaildNumber = int.TryParse(number, out usedNumber);
                 if (!vaildNumber)
-                    Console.WriteLine("Invalid number, Re-enter:");
+                    Console.WriteLine($"Invalid number, Re-enter:{Environment.NewLine}");
             }
             Console.WriteLine(Environment.NewLine);
             int count = 1;
